@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="резюме, html, css, js, frontend">
+    <meta name="description" content="Это сайт резюме">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="img/1625663264_10-phonoteka-org-p-chelovek-pauk-arti-milie-krasivo-12.jpg" alt="Моя аватарка" width="250">
+            <div class="info__content">
+                <div class="info-text">
+                    <div class="bio">
+                        <h1>Алексей Голик</h1>
+                        <p>Я студент <strong>Result school</strong>, изучаю <strong>frontend - разработку</strong></p>
+                        <p>Я люблю <em>путешествовать, играть на клавишах, заниматься спортом и программировать</em></p>
+                    </div>
+                    <h3>Список социальных сетей:</h3>
+                    <a href="https://vk.com/policebox_publiccall" target="_blank">Вконтакте</a>
+                    |
+                    <a href="https://t.me/poIicebox" target="_blank">Телеграм</a>
+                </div>
+            </div>
+        </div> 
+        <div class="card hobby">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Путешествия</li>
+                <li>Музыка</li>
+                <li>Сериалы</li>
+                <li>Спорт зал</li>
+            </ul>
+        </div>
+        <div class="card work">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>РЖД</td>
+                        <td>Помощник машиниста</td>
+                        <td>2014 - 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Икеа</td>
+                        <td>Мойщик посуды</td>
+                        <td>2018 - 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Магнит</td>
+                        <td>Специалист поддержки</td>
+                        <td>2021 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="contact">
+            <form>
+                <h2>Связаться со мной</h2>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Введите имя">
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Ваш email:</label>
+                            <input type="text" id="email" placeholder="Введите email">
+                        </div>
+                    </div>
+                    <div class="form__group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" placeholder="Введите сообщение..." cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="btn" type="submit">Отправить!</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
